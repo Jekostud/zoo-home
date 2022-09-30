@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* HEADER*/
 
 body {
     margin: 0px;
 }
+
 html {
-    scroll-behavior: smooth; 
-  }
+    scroll-behavior: smooth;
+}
 
 .hiddenClass {
     display: none;
@@ -71,7 +73,6 @@ a {
     color: #333B41;
 }
 
-
 li:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     -webkit-background-clip: text;
@@ -82,7 +83,8 @@ li:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    pointer-events: none; /* делаем элемент неактивным для взаимодействия */
+    pointer-events: none;
+    /* делаем элемент неактивным для взаимодействия */
     cursor: default;
 }
 
@@ -109,7 +111,6 @@ li:hover {
 
 .wrapNav {
     display: flex;
-
 }
 
 .designed {
@@ -137,7 +138,6 @@ li:hover {
     align-items: center;
     border-radius: 2px;
     margin-right: 23px;
-
 }
 
 .pandaText {
@@ -158,7 +158,6 @@ li:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border: 1px solid #000000;
     border-radius: 50%;
-
 }
 
 .pandaText {
@@ -167,7 +166,6 @@ li:hover {
     font-weight: 700;
     font-size: 106.5px;
     line-height: 79px;
-
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -177,7 +175,6 @@ li:hover {
 .pandaTextCont {
     width: 500px;
     margin-left: 73px;
-
 }
 
 .button {
@@ -201,7 +198,6 @@ li:hover {
     color: #FFEE2E;
 }
 
-
 .photoText {
     margin-top: 140px;
     margin-left: 219px;
@@ -224,6 +220,7 @@ li:hover {
     margin: 0 auto;
     max-width: 1600px;
 }
+
 
 /* ANIMALS CARDS*/
 
@@ -277,7 +274,6 @@ li:hover {
     align-items: center;
     z-index: 3;
 }
-
 
 .btnArrowRight {
     cursor: pointer;
@@ -344,7 +340,6 @@ li:hover {
     border-bottom: 2px solid #FE9013;
 }
 
-
 .underPhoto {
     display: flex;
     justify-content: space-between;
@@ -378,6 +373,7 @@ li:hover {
 .animalLocation {
     padding-left: 16px;
 }
+
 .buttonContainerWrapper {
     display: flex;
     justify-content: center;
@@ -412,8 +408,6 @@ li:hover {
     height: 275px;
     margin-top: 184px;
 }
-
-
 
 
 /*   Pick and feed a friend */
@@ -564,6 +558,7 @@ li:hover {
     cursor: pointer;
 }
 
+
 /* TESTIMONIALS*/
 
 .testimonials {
@@ -579,8 +574,7 @@ li:hover {
 
 .card-wrap {
     padding: 2px;
-    background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #E4E4F6 149.54%),
-        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #E4E4F6 149.54%);
+    background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #E4E4F6 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #E4E4F6 149.54%);
     border-radius: 20px;
 }
 
@@ -641,7 +635,9 @@ li:hover {
     color: #BDBDBD;
 }
 
+
 /*   SLIDER  */
+
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -701,8 +697,8 @@ li:hover {
     display: block;
     margin-left: auto;
     margin-top: -95px;
-
 }
+
 
 /* FOOOOOOTER*/
 
@@ -712,7 +708,6 @@ li:hover {
     margin: 0 auto;
     position: relative;
     margin-top: -133px;
-
 }
 
 .footerWrapper {
@@ -869,14 +864,16 @@ input {
     width: 129px;
     height: 42px;
     background: #F1F3F2;
-    border: 1px solid #D31414;;
+    border: 1px solid #D31414;
+    ;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    color:#D31414;;
+    color: #D31414;
+    ;
     margin-left: 7px;
 }
 
@@ -897,7 +894,9 @@ input {
     color: #8b8b8b;
 }
 
+
 /* INTERACTIVE*/
+
 .button:hover {
     background: #E47209;
 }
@@ -935,32 +934,36 @@ input {
 
 input:valid:not(:placeholder-shown) {
     border-color: green;
-  }
-  
+}
+
 input:invalid:not(:placeholder-shown) {
     border-color: red;
 }
+
 input:invalid:not(:button-shown) {
     border-color: red;
 }
+
 input:valid:not(:button-shown) {
     border-color: green;
 }
 
-
 link:hover {
     background: #FFFFFF;
 }
+
 .hover:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .emergincy:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .designed:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     -webkit-background-clip: text;
@@ -970,6 +973,7 @@ link:hover {
 button:active {
     background: #4b9200;
 }
+
 button:focus {
     background: #4B9200;
 }
@@ -977,6 +981,7 @@ button:focus {
 .emailBtn:active {
     background: #ffffff;
 }
+
 .emailBtn:focus {
     background: #ffffff;
 }
@@ -984,288 +989,245 @@ button:focus {
 .btnArrowLeft:active {
     background: #4B9200;
 }
+
 .btnArrowRight:focus {
     background: #4B9200;
 }
 
+
 /* HIDDENS CARD*/
+
 .animalsCards div:nth-child(3) {
     display: none;
 }
+
 .animalsCards div:nth-child(5) {
     display: none;
 }
+
 .flowersAnimals img:nth-child(1) {
     display: none;
 }
-
-
-
 
 
 /* MEDIA MEDIA MEDIA MEDIA*/
 
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1599px ) {
-.pandaText {
-    height: 584px;
-    width: 1000px;
-    background-size: cover;
-    background-position: -100px -80px;
-    font-size: 85.5px;
-    line-height: 64px;
-}
-.nav {
-    justify-content: space-between;
-}
-.wrapNav {
-    margin-left: 30px;
-}
-.navList {
-    gap: 48px;
-}
-.designed {
-    padding-right: 15px;
-    margin-right: 0px;
-}
-.orangeCircle {
-    width: 367px;
-    height: 367px;
-    left: calc(45% - 450px/2 + 239.5px);
-    top: 69px;
-    border:none;
-}
-.header {
-    position: relative;
-    z-index: 1;
-}
-.pandaTextCont {
-    margin-left: 6px;
-    margin-top: -22px;
-    margin-bottom: 0px;
-}
-.manageBtn {
-    padding-top: 373px;
-    padding-left: 430px;
-}
-.flowersOne {
-    display: none;
-}
-.photoText {
-    width: auto;
-    margin-top: 0px;
-    margin-left: 23px;
-}
-
-.secondWrapper {
-    max-width: 963px;
-    margin-top: 29px;
-    height: 427px;
-}
-
-.d {
-    margin-left: 31px;
-    margin-top: -9px;
-}
-.imgBambooCap {
-    width: 455px;
-    height: 408px;
-    object-fit: cover;
-}
-.items-img {
-    width: 294px;
-    height: 294px;
-}
-.chain {
-    width: 294px;
-    height: 354px;
-}
-.animalsCards {
-    width: 960px;
-    gap: 20px 27px;
-    padding-left: 37px;
-
-}
-.animals {
-    margin-top: 133px;
-}
-.btnArrowLeft {
-    left: 355px;
-    top: 46%;
-}
-.btnArrowRight {
-    top: 46%;
-    left: 586px;
-}
-.animalsCards div:nth-child(3) {
-    display: block;
-}
-.animalsCards div:nth-child(5) {
-    display: block;
-}
-.animalsCards div:nth-child(6) {
-    display: none;
-}
-.animalsCards div:nth-child(7) {
-    display: none;
-}
-.buttonContainerWrapper {
-    justify-content: unset;
-    margin-top: -77px;
-    margin-left: 352px;
-}
-.flowersAnimals img:nth-child(1) {
-    display: block;
-    margin-top: 304px;
-    width: 194px;
-}
-.flowersAnimals img:nth-child(2) {
-    display: none;
-}
-.palmAnimals {
-    width: 100%;
-    height: 202px;
-}
-.strelitzia {
-    width: 241px;
-    height: 180px;
-    margin-right: -17px;
-    margin-top: 326px;
-}
-.pickContainer {
-    width: 941px;
-    margin-left: 15px;
-    margin-top: -23px;
-    height: 796px;
-}
-.pickTextOne {
-    margin-top: 30px;
-    margin-bottom: 22px;
-}
-.pickTextTwo {
-    margin-left: 51px;
-    margin-bottom: 20px;
-
-}
-.pickTextThree {
-    margin-left: 50px;
-    width: 800px;
-}
-.pickTextFour {
-    margin-left: 51px;
-    line-height: 85%;
-    width: 800px;
-
-}
-.pickTextFour br{
-    display: none;
-}
-.howItWorks {
-    margin-top: 32px;
-}
-.worksCards {
-    margin-bottom: 71px;
-}
-.pickAndFeed {
-    height: 875px;
-}
-
-/* TESTIMONIALS */
-
-.tetiText {
-    margin-top: 101px;
-    margin-bottom: 32px;
-    margin-left: -15px;
-}
-.cardsTeti {
-    gap: 32px;
-}
-.cardText {
-    width: 286px;
-}
-.cardWrapper {
-    width: 960px;
-    overflow: hidden;
-}
-.textWrap {
-    padding: 12px 10px 5px 12px;
-}
-.mainText {
-    padding: 3px 17px 4px 9px;
-}
-.slider {
-    margin-top: 18px;
-    border-radius: 20px;
-    margin-left: 266px;
-    width: 389px;
-    height: 5px;
-}
-.slider::-webkit-slider-thumb {
-    width: 75px;
-}
-.feedback {
-    margin-top: 53px;
-    margin-left: -3px;
-}
-.lastFlower {
-    margin-top: -100px;
-    width: 200px;
-    margin-right: -18px;
-}
-.footer {
-    margin-top: -90px;
-}
-.sectionOne {
-    margin-left: 44px;
-}
-.listFoot {
-    gap: 48px;
-}
-.sectionTwo {
-    margin-top: -33px;
-    margin-left: -105px;
-}
-.sectionThree {
-    margin-left: -168px;
-}
-.signature {
-    margin-left: 167px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 1599px) {
+    .pandaText {
+        height: 584px;
+        width: 1000px;
+        background-size: cover;
+        background-position: -100px -80px;
+        font-size: 85.5px;
+        line-height: 64px;
+    }
+    .nav {
+        justify-content: space-between;
+    }
+    .wrapNav {
+        margin-left: 30px;
+    }
+    .navList {
+        gap: 48px;
+    }
+    .designed {
+        padding-right: 15px;
+        margin-right: 0px;
+    }
+    .orangeCircle {
+        width: 367px;
+        height: 367px;
+        left: calc(45% - 450px/2 + 239.5px);
+        top: 69px;
+        border: none;
+    }
+    .header {
+        position: relative;
+        z-index: 1;
+    }
+    .pandaTextCont {
+        margin-left: 6px;
+        margin-top: -22px;
+        margin-bottom: 0px;
+    }
+    .manageBtn {
+        padding-top: 373px;
+        padding-left: 430px;
+    }
+    .flowersOne {
+        display: none;
+    }
+    .photoText {
+        width: auto;
+        margin-top: 0px;
+        margin-left: 23px;
+    }
+    .secondWrapper {
+        max-width: 963px;
+        margin-top: 29px;
+        height: 427px;
+    }
+    .d {
+        margin-left: 31px;
+        margin-top: -9px;
+    }
+    .imgBambooCap {
+        width: 455px;
+        height: 408px;
+        object-fit: cover;
+    }
+    .items-img {
+        width: 294px;
+        height: 294px;
+    }
+    .chain {
+        width: 294px;
+        height: 354px;
+    }
+    .animalsCards {
+        width: 960px;
+        gap: 20px 27px;
+        padding-left: 37px;
+    }
+    .animals {
+        margin-top: 133px;
+    }
+    .btnArrowLeft {
+        left: 355px;
+        top: 46%;
+    }
+    .btnArrowRight {
+        top: 46%;
+        left: 586px;
+    }
+    .animalsCards div:nth-child(3) {
+        display: block;
+    }
+    .animalsCards div:nth-child(5) {
+        display: block;
+    }
+    .animalsCards div:nth-child(6) {
+        display: none;
+    }
+    .animalsCards div:nth-child(7) {
+        display: none;
+    }
+    .buttonContainerWrapper {
+        justify-content: unset;
+        margin-top: -77px;
+        margin-left: 352px;
+    }
+    .flowersAnimals img:nth-child(1) {
+        display: block;
+        margin-top: 304px;
+        width: 194px;
+    }
+    .flowersAnimals img:nth-child(2) {
+        display: none;
+    }
+    .palmAnimals {
+        width: 100%;
+        height: 202px;
+    }
+    .strelitzia {
+        width: 241px;
+        height: 180px;
+        margin-right: -17px;
+        margin-top: 326px;
+    }
+    .pickContainer {
+        width: 941px;
+        margin-left: 15px;
+        margin-top: -23px;
+        height: 796px;
+    }
+    .pickTextOne {
+        margin-top: 30px;
+        margin-bottom: 22px;
+    }
+    .pickTextTwo {
+        margin-left: 51px;
+        margin-bottom: 20px;
+    }
+    .pickTextThree {
+        margin-left: 50px;
+        width: 800px;
+    }
+    .pickTextFour {
+        margin-left: 51px;
+        line-height: 85%;
+        width: 800px;
+    }
+    .pickTextFour br {
+        display: none;
+    }
+    .howItWorks {
+        margin-top: 32px;
+    }
+    .worksCards {
+        margin-bottom: 71px;
+    }
+    .pickAndFeed {
+        height: 875px;
+    }
+    /* TESTIMONIALS */
+    .tetiText {
+        margin-top: 101px;
+        margin-bottom: 32px;
+        margin-left: -15px;
+    }
+    .cardsTeti {
+        gap: 32px;
+    }
+    .cardText {
+        width: 286px;
+    }
+    .cardWrapper {
+        width: 960px;
+        overflow: hidden;
+    }
+    .textWrap {
+        padding: 12px 10px 5px 12px;
+    }
+    .mainText {
+        padding: 3px 17px 4px 9px;
+    }
+    .slider {
+        margin-top: 18px;
+        border-radius: 20px;
+        margin-left: 266px;
+        width: 389px;
+        height: 5px;
+    }
+    .slider::-webkit-slider-thumb {
+        width: 75px;
+    }
+    .feedback {
+        margin-top: 53px;
+        margin-left: -3px;
+    }
+    .lastFlower {
+        margin-top: -100px;
+        width: 200px;
+        margin-right: -18px;
+    }
+    .footer {
+        margin-top: -90px;
+    }
+    .sectionOne {
+        margin-left: 44px;
+    }
+    .listFoot {
+        gap: 48px;
+    }
+    .sectionTwo {
+        margin-top: -33px;
+        margin-left: -105px;
+    }
+    .sectionThree {
+        margin-left: -168px;
+    }
+    .signature {
+        margin-left: 167px;
+    }
 }
