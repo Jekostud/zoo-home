@@ -1036,8 +1036,7 @@ input:invalid:not(:placeholder-shown) {
         height: 1333px;
     }
     .donateFirstText {
-        width: 840px;
-        margin-left: 14px;
+        width: 940px;
     }
     .donateSecndText {
         padding-top: 30px;
@@ -1045,8 +1044,8 @@ input:invalid:not(:placeholder-shown) {
         letter-spacing: 0.06px;
     }
     .donateThirdText {
-        padding-left: 30px;
-        width: auto;
+        padding-left: 17px;
+        width: 936px;
     }
     .mainContainerDonate {
         height: 919px;
@@ -1103,5 +1102,8 @@ input:invalid:not(:placeholder-shown) {
     }
     .lastText {
         margin-left: -9px;
+    }
+    .hiddenClass {
+        display: block;
     }
 }
