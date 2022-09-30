@@ -1,0 +1,1084 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* HEADER*/
+body {
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hiddenClass {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.manageBtn {
+    padding-top: 503px;
+    padding-left: 680px;
+}
+
+.d {
+    margin-left: 87px;
+}
+
+.descriptionOne {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333B41;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+}
+
+.descriptionTwo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+    margin-top: 54px;
+    margin-bottom: 34px;
+}
+
+.descriptionThree {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+
+a:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.active {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    pointer-events: none;
+    /* делаем элемент неактивным для взаимодействия */
+    cursor: default;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 1600px;
+    margin: 0 auto;
+    justify-content: space-around
+}
+
+.navList {
+    display: flex;
+    gap: 58px;
+    list-style: none;
+}
+
+.wrapNav {
+    display: flex;
+
+}
+
+.designed {
+    align-items: center;
+    display: flex;
+    margin-right: -15px;
+}
+
+.logo {
+    background-image: url(../../assets/icons/logo_footer.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 82px;
+    height: 52px;
+    margin-top: 14px;
+    margin-left: 220px;
+}
+
+.logoA {
+    width: 82px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-right: 23px;
+
+}
+
+.pandaText {
+    background-image: url("../../assets/images/Giant\ Panda.jpg");
+    height: 386px;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: 0px -197px;
+}
+
+.orangeCircle {
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    left: calc(50% - 450px/2 + 239.5px);
+    top: 92px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border: 1px solid #000000;
+    border-radius: 50%;
+
+}
+
+.pandaText {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.5px;
+    line-height: 79px;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.pandaTextCont {
+    width: 500px;
+    margin-left: 73px;
+
+}
+
+.button {
+    cursor: pointer;
+    width: 298px;
+    height: 54px;
+    border: none;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.favorite {
+    color: #FFEE2E;
+}
+
+
+.photoText {
+    margin-top: 140px;
+    margin-left: 219px;
+    display: flex;
+    width: 1161px;
+    height: 403px;
+}
+
+.description {
+    display: block;
+}
+
+.logoText {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+}
+
+
+
+/* END   HEADER */
+.feedWrapper {
+    padding-top: 40px;
+    padding-left: 15px;
+
+}
+
+.feedAnimals {
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%),
+        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    height: 1482px;
+}
+
+
+.donateFirstText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin: 0 auto;
+    width: 1160px;
+}
+
+.donateSecndText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 1160px;
+    letter-spacing: 0.1px;
+}
+
+.donateThirdText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FE9013;
+    padding-top: 46px;
+    margin: 0 auto;
+    width: 1160px;
+    padding-left: 15px;
+}
+
+.mainContainerDonate {
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    height: 964px;
+    width: 1160px;
+    margin-top: 60px;
+    margin-left: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCenter {
+    width: 980px;
+    height: 862px;
+    margin-top: -25px;
+}
+
+.textFeed {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #FE9013;
+    margin-left: -5px;
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+
+.textFeedTwo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+    padding-left: 5px;
+    margin-bottom: 60px;
+}
+
+.feed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.feedNumb {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 74%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    width: 159px;
+    font-family: "Roboto", Arial, sans-serif;
+    font-style: normal;
+}
+
+.feedAnimal {
+    width: 372px;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    position: relative;
+    left: 5px;
+}
+
+.simbol {
+    font-size: 36px;
+    font-weight: 300;
+    position: relative;
+    top: 13px;
+}
+
+.diet {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41;
+    text-transform: none;
+    margin-top: 15px;
+}
+
+.smallest {
+    color: #000000;
+    margin-top: 48px;
+    margin-bottom: 17px;
+    text-align: left;
+    font-family: "Roboto", Arial, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+
+
+
+
+.donatLine {
+    position: relative;
+}
+
+.donatWrapper {
+    display: flex;
+    justify-content: center;
+    width: 976px;
+}
+
+.donatLine::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 27px;
+    background-color: #404950;
+    border-radius: 2px;
+}
+
+.donatLine input {
+    position: relative;
+    z-index: 2;
+    margin-top: 29px;
+    width: 100%;
+    height: 2px;
+    -webkit-appearance: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.donatLine::after {
+    content: "";
+    position: absolute;
+    left: 19.5px;
+    top: 14px;
+    width: 96%;
+    height: 2px;
+    background-color: #ababab;
+}
+
+.donatList {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin-top: 5px;
+    width: 109.5%;
+    position: relative;
+    left: -50px;
+    z-index: 3;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    color: #333b41;
+    font-family: "Roboto", Arial, sans-serif;
+    font-style: normal;
+}
+
+.range-label {
+    -webkit-box-flex: 1;
+    flex: 1;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 26px;
+    line-height: 140%;
+    color: #333b41;
+    font-family: "Roboto", Arial, sans-serif;
+    font-style: normal;
+}
+
+/* .donatLine option::before {
+    content: "";
+    position: absolute;
+    left: 65px;
+    top: -31px;
+    width: 10px;
+    height: 10px;
+    background-color: #ffee2e;
+    border-radius: 50%;
+} */
+/* .donatLine option::after {
+    content: "";
+    position: absolute;
+    left: 40px;
+    top: -51px;
+    width: 50px;
+    height: 50px;
+} */
+.donatLine input::-webkit-slider-thumb {
+    padding: 20px;
+    margin-top: -46px;
+    margin-left: -4px;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    -webkit-appearance: none;
+    background-image: URL("../../assets/images/roller_icon.svg");
+}
+
+.donatLine datalist .donatLine-active {
+    color: #f9804b;
+    cursor: default;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.donatLine datalist option:hover {
+    color: #4b9200;
+}
+
+.donatLine datalist option:hover:before {
+    background-color: #4b9200;
+}
+
+.active {
+    color: #f9804b !important;
+    cursor: default;
+}
+
+.lastText {
+    margin-top: 30px;
+    margin-left: -15px;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333b41;
+    font-family: "Roboto", Arial, sans-serif;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.feedAmount {
+    margin-top: 45px;
+    width: 268px;
+}
+
+.feedAmount_div_input {
+    position: relative;
+    width: 268px;
+}
+
+.feedAmount_div_input:after {
+    content: "$";
+    position: absolute;
+    top: 13px;
+    right: 0;
+    opacity: 0.45;
+    font-size: 25px;
+}
+
+.feedAmount_input {
+    height: 54px;
+    border-radius: 2px;
+    border: 1px solid #929699;
+    padding-left: 9px;
+    text-align: left;
+    width: 100%;
+    background: transparent;
+    position: relative;
+    z-index: 5;
+    outline: none;
+}
+
+.feedAmount_input:active,
+.feedAmount_input:focus {
+    color: #4B9200;
+    border-color: #4B9200;
+}
+
+.feedAmount_input:active::placeholder,
+.feedAmount_input:focus::placeholder {
+    color: #4B9200;
+    border-color: #4B9200;
+}
+
+.donatLine input[type=number]::-webkit-outer-spin-button,
+.donatLine input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.feedAmount_radio {
+    margin: 22px 0 30px -15px;
+    gap: 51px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-direction: normal;
+}
+
+
+.radio label::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #f9804b;
+    border-radius: 50%;
+}
+
+.radio input:checked+label {
+    cursor: default;
+    color: #333b41;
+}
+
+.radio input:checked+label::before {
+    border: 0;
+    background-color: #4b9200;
+}
+
+.radio input {
+    display: none;
+}
+
+.button {
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    font-family: "Roboto";
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    margin-left: -15px;
+}
+
+.button:hover {
+    background: #E47209;
+}
+
+
+.button:active {
+    background: #4b9200;
+}
+.button:focus {
+    background: #4B9200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerCenter datalist {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin-top: 5px;
+    width: 109.5%;
+    position: relative;
+    left: -50px;
+    z-index: 3;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    color: #333b41;
+}
+
+.containerCenter datalist option {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.containerCenter datalist option::before,
+.containerCenter datalist option {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.containerCenter datalist option::before {
+    content: "";
+    position: absolute;
+    left: 65px;
+    top: -31px;
+    width: 10px;
+    height: 10px;
+    background-color: #ffee2e;
+    border-radius: 50%;
+}
+
+.containerCenter datalist option::after {
+    content: "";
+    position: absolute;
+    left: 40px;
+    top: -51px;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.containerCenter input[type=number]::-webkit-outer-spin-button,
+.containerCenter input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.containerCenter .donatLine_radio {
+    margin: 22px 0 30px -15px;
+    gap: 51px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-direction: normal;
+}
+
+.containerCenter .radio label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333b41;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+/* .containerCenter .radio input:checked+label {
+    cursor: default;
+    color: #333b41;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOOTER */
+
+.footer {
+    background: rgba(17, 17, 21, 1);
+    height: 443px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.footerWrapper {
+    display: flex;
+    /*     gap: 38px; */
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.sectionOne {
+    width: 385px;
+    height: 100px;
+    margin-left: 52px;
+}
+
+.sectionTwo {
+    width: 428px;
+    height: 443px;
+    align-items: end;
+    display: flex;
+    margin-top: -33px;
+    margin-left: 8px;
+}
+
+.sectionThree {
+    width: 405px;
+    height: 100px;
+    margin-left: -25px;
+}
+
+.logoF {
+    width: 82px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-top: 39px;
+}
+
+.logoText {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.donateBtn {
+    width: 298px;
+    height: 54px;
+    border: none;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    cursor: pointer;
+    margin-top: 68px;
+}
+.donateBtn:active {
+    background: #4b9200;
+}
+.donateBtn:focus {
+    background: #4B9200;
+}
+
+.communitiesText {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.listCommunities {
+    margin-top: 44px;
+}
+
+.circleIco {
+    width: 26px;
+    height: 26px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook {
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.listFoot {
+    color: #FFFFFF;
+    display: flex;
+    list-style: none;
+    gap: 58px;
+    padding-left: 0px;
+    margin-left: 10px;
+}
+
+.contact {
+    display: flex;
+    margin-top: 14px;
+}
+
+.secThreeText {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.sectionThree {
+    margin-top: 40px;
+}
+
+input {
+    border: 0.7px solid;
+    border-color: rgba(249, 128, 75, 1);
+    border-radius: 2px;
+    background-color: rgba(17, 17, 21, 1);
+    width: 222px;
+    height: 38px;
+    outline: none;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+    padding-left: 7px;
+}
+
+.emailBtn {
+    width: 129px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+    color: #4B9200;
+    margin-left: 7px;
+}
+
+.signature {
+    display: flex;
+    flex-direction: column;
+    margin-top: 217px;
+    margin-left: 140px;
+    gap: 10px;
+}
+
+.textSign {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 120%;
+    color: #8b8b8b;
+}
+
+/* INTERACTIVE*/
+.button:hover {
+    background: #E47209;
+}
+
+.btnWhathOnline:hover {
+    background: #E47209;
+}
+
+.btnFeedFriend:hover {
+    background: #E47209;
+}
+
+.feedback:hover {
+    background: #E47209;
+}
+
+.donateBtn:hover {
+    background: #E47209;
+}
+
+.arrowLeft:hover {
+    background: #E47209;
+    border-radius: 50%;
+}
+
+.arrowRight:hover {
+    background: #E47209;
+    border-radius: 50%;
+}
+
+.btnArrowLeft:hover {
+    background: #E47209;
+    border-radius: 50%;
+}
+
+input:valid:not(:placeholder-shown) {
+    border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second_page .thezoo .friend datalist option:hover {
+    color: #4b9200;
+}
+
+.second_page .thezoo .friend datalist option:hover:before {
+    background-color: #4b9200;
+}
+
+.second_page .thezoo .friend datalist .donat_range-active {
+    color: #f9804b;
+    cursor: default;
+    pointer-events: none;
+    z-index: 1;
+}
