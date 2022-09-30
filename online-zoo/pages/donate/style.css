@@ -976,3 +976,132 @@ input:invalid:not(:placeholder-shown) {
 
 
 /* ---------------------- MEDIA-------------------------------*/
+
+@media (max-width: 1599px) {
+    .pandaText {
+        height: 390px;
+        max-width: 1000px;
+        background-size: 162%;
+        background-position: -170px -192px;
+        font-size: 85.5px;
+        line-height: 64px;
+    }
+    .nav {
+        justify-content: space-between;
+    }
+    .wrapNav {
+        margin-left: 30px;
+    }
+    .navList {
+        gap: 48px;
+    }
+    .designed {
+        padding-right: 15px;
+        margin-right: 0px;
+    }
+    .orangeCircle {
+        width: 367px;
+        height: 367px;
+        left: calc(45% - 450px/2 + 239.5px);
+        top: 69px;
+        border: none;
+    }
+    .header {
+        position: relative;
+        z-index: 1;
+    }
+    .footer {
+        margin-top: -90px;
+    }
+    .sectionOne {
+        margin-left: 44px;
+    }
+    .listFoot {
+        gap: 48px;
+    }
+    .sectionTwo {
+        margin-top: -33px;
+        margin-left: -105px;
+    }
+    .sectionThree {
+        margin-left: -168px;
+    }
+    .signature {
+        margin-left: 167px;
+    }
+    .footerWrapper {
+        width: auto;
+    }
+    .feedAnimals {
+        height: 1333px;
+    }
+    .donateFirstText {
+        width: 840px;
+        margin-left: 14px;
+    }
+    .donateSecndText {
+        padding-top: 30px;
+        width: 937px;
+        letter-spacing: 0.06px;
+    }
+    .donateThirdText {
+        padding-left: 30px;
+        width: auto;
+    }
+    .mainContainerDonate {
+        height: 919px;
+        margin-top: 38px;
+        margin-left: 15px;
+        width: 940PX;
+    }
+    .containerCenter {
+        margin-top: 40px;
+        height: 918px;
+        margin-left: -10px;
+    }
+    .textFeed {
+        margin-bottom: 12px;
+    }
+    .textFeedTwo {
+        padding-left: 71px;
+    }
+    .feed {
+        margin-right: 5px;
+    }
+    .donatLine::before {
+        width: 86%;
+    }
+    .dataList {
+        padding-left: 45px;
+    }
+    .footer {
+        margin-top: 0px;
+    }
+    .sectionOne {
+        margin-left: 31px;
+    }
+    .sectionTwo {
+        margin-left: -91px;
+    }
+    .sectionThree {
+        margin-left: -183px;
+    }
+    .containerCenter datalist {
+        width: 100.5%;
+    }
+    .donatLine input {
+        width: 93%;
+    }
+    .smallest {
+        margin-left: 89px
+    }
+    .feedAmount_radio {
+        margin: 22px 0 30px -7px;
+    }
+    .button {
+        margin-left: -6px;
+    }
+    .lastText {
+        margin-left: -9px;
+    }
+}
