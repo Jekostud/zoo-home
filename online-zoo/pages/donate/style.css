@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* HEADER*/
+
 body {
     margin: 0px;
 }
@@ -72,7 +73,6 @@ a {
     color: #333B41;
 }
 
-
 a:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     -webkit-background-clip: text;
@@ -111,7 +111,6 @@ a:hover {
 
 .wrapNav {
     display: flex;
-
 }
 
 .designed {
@@ -139,7 +138,6 @@ a:hover {
     align-items: center;
     border-radius: 2px;
     margin-right: 23px;
-
 }
 
 .pandaText {
@@ -160,7 +158,6 @@ a:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border: 1px solid #000000;
     border-radius: 50%;
-
 }
 
 .pandaText {
@@ -169,7 +166,6 @@ a:hover {
     font-weight: 700;
     font-size: 106.5px;
     line-height: 79px;
-
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -179,7 +175,6 @@ a:hover {
 .pandaTextCont {
     width: 500px;
     margin-left: 73px;
-
 }
 
 .button {
@@ -202,7 +197,6 @@ a:hover {
 .favorite {
     color: #FFEE2E;
 }
-
 
 .photoText {
     margin-top: 140px;
@@ -228,21 +222,17 @@ a:hover {
 }
 
 
-
 /* END   HEADER */
+
 .feedWrapper {
     padding-top: 40px;
     padding-left: 15px;
-
 }
 
 .feedAnimals {
-    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%),
-        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
-        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
     height: 1482px;
 }
-
 
 .donateFirstText {
     font-family: 'Roboto';
@@ -392,10 +382,6 @@ a:hover {
     padding-left: 8px;
 }
 
-
-
-
-
 .donatLine {
     position: relative;
 }
@@ -466,6 +452,7 @@ a:hover {
     font-style: normal;
 }
 
+
 /* .donatLine option::before {
     content: "";
     position: absolute;
@@ -476,6 +463,8 @@ a:hover {
     background-color: #ffee2e;
     border-radius: 50%;
 } */
+
+
 /* .donatLine option::after {
     content: "";
     position: absolute;
@@ -484,6 +473,7 @@ a:hover {
     width: 50px;
     height: 50px;
 } */
+
 .donatLine input::-webkit-slider-thumb {
     padding: 20px;
     margin-top: -46px;
@@ -526,20 +516,6 @@ a:hover {
     font-family: "Roboto", Arial, sans-serif;
     font-style: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .feedAmount {
     margin-top: 45px;
@@ -601,7 +577,6 @@ a:hover {
     -webkit-box-direction: normal;
 }
 
-
 .radio label::before {
     content: "";
     width: 16px;
@@ -647,46 +622,13 @@ a:hover {
     background: #E47209;
 }
 
-
 .button:active {
     background: #4b9200;
 }
+
 .button:focus {
     background: #4B9200;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .containerCenter datalist {
     display: grid;
@@ -737,8 +679,6 @@ a:hover {
     height: 50px;
 }
 
-
-
 .containerCenter input[type=number]::-webkit-outer-spin-button,
 .containerCenter input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -773,33 +713,6 @@ a:hover {
  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOOTER */
 
 .footer {
@@ -807,7 +720,6 @@ a:hover {
     height: 443px;
     margin: 0 auto;
     position: relative;
-
 }
 
 .footerWrapper {
@@ -878,9 +790,11 @@ a:hover {
     cursor: pointer;
     margin-top: 68px;
 }
+
 .donateBtn:active {
     background: #4b9200;
 }
+
 .donateBtn:focus {
     background: #4B9200;
 }
@@ -999,7 +913,9 @@ input {
     color: #8b8b8b;
 }
 
+
 /* INTERACTIVE*/
+
 .button:hover {
     background: #E47209;
 }
@@ -1043,31 +959,6 @@ input:invalid:not(:placeholder-shown) {
     border-color: red;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .second_page .thezoo .friend datalist option:hover {
     color: #4b9200;
 }
@@ -1082,3 +973,6 @@ input:invalid:not(:placeholder-shown) {
     pointer-events: none;
     z-index: 1;
 }
+
+
+/* ---------------------- MEDIA-------------------------------*/

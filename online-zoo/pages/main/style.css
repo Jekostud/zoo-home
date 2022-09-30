@@ -1015,7 +1015,7 @@ button:focus {
 @media (max-width: 1599px) {
     .pandaText {
         height: 584px;
-        width: 1000px;
+        max-width: 1000px;
         background-size: cover;
         background-position: -100px -80px;
         font-size: 85.5px;
@@ -1232,5 +1232,11 @@ button:focus {
     }
     .footerWrapper {
         width: auto;
+    }
+    .sectionAnimals {
+        overflow: hidden;
+    }
+    .testimonials {
+        overflow: hidden;
     }
 }
