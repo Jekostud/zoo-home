@@ -975,6 +975,13 @@ input:invalid:not(:placeholder-shown) {
 }
 
 
+/*   HAMBURGER   */
+
+.hamburger {
+    display: none;
+}
+
+
 /* ---------------------- MEDIA-------------------------------*/
 
 @media (max-width: 1599px) {

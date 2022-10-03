@@ -23,3 +23,26 @@ if (!!input) {
         }
     }
 }
+
+
+
+/************HAMBURGER***********/
+const hamburger = document.querySelector('.hamburger'); //search hamburger!
+
+function toggleMenu() {
+    hamburger.classList.toggle('open');
+}
+hamburger.addEventListener('click', toggleMenu);
+
+let nav = document.querySelector('.nav');
+hamburger.addEventListener('click', function() {
+    nav.classList.toggle('active');
+})
+
+const nav_link = document.querySelectorAll('.nav_link');
+nav_link.forEach(n => n.addEventListener('click', closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove('open');
+    nav.classList.remove('active');
+}
