@@ -1,3 +1,4 @@
+alert("Пожалуйста, проверьте задание 05.10")
 const input = document.querySelector(".range-input");
 const labels = document.querySelectorAll(".range-label");
 
