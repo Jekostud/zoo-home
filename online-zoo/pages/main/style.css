@@ -1339,14 +1339,25 @@ button:focus {
         display: none;
     }
     .d {
-        width: 475px;
+        width: 483px;
+        margin-left: 22px;
     }
     .flowersTwo {
         display: block;
         margin-left: auto;
-        margin-top: -463px;
+        margin-top: -500px;
         width: 132px;
         margin-right: -16px;
+    }
+    .secondWrapper {
+        margin-top: 66px;
+    }
+    .photoText {
+        margin-left: 0px;
+    }
+    .descriptionTwo {
+        margin-top: 33px;
+        margin-bottom: 18px;
     }
     /* SECTION THREE*/
     .animalsCards {
@@ -1384,5 +1395,173 @@ button:focus {
     .animalLocation {
         font-size: 11.6901px;
         line-height: 120%;
+    }
+    .animals {
+        margin-top: 27px;
+    }
+    .animalsCards {
+        padding-left: 76px;
+        gap: 92px 27px;
+        height: 761px;
+    }
+    .btnArrowLeft {
+        left: 242px;
+        top: 43.2%;
+    }
+    .btnArrowRight {
+        top: 43.2%;
+        left: 335px;
+    }
+    .buttonContainerWrapper {
+        margin-left: 173px;
+        margin-top: -30px;
+    }
+    .flowersAnimals {
+        margin-top: -404px;
+    }
+    /*SECTION FIVE*/
+    .pickAndFeed {
+        height: 781px;
+    }
+    .pickContainer {
+        margin-top: -5px;
+        width: 640px;
+        height: 741PX;
+        margin-left: 0px;
+    }
+    .pickTextOne {
+        margin-top: 10px;
+        margin-bottom: 22px;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 120%;
+        margin-left: 16px;
+    }
+    .pickTextTwo {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 120%;
+        margin-left: 20px;
+        margin-bottom: 18px;
+    }
+    .pickTextThree {
+        margin-left: 19px;
+        width: 600px;
+        margin-bottom: 13px;
+    }
+    .pickTextFour {
+        margin-left: 20px;
+        line-height: 70%;
+        width: 600px;
+    }
+    .howItWorks {
+        margin-top: 22px;
+        margin-bottom: 20px;
+        padding-left: 17px;
+    }
+    .paymentArrow {
+        display: none;
+    }
+    .paymentArrowSec {
+        display: none;
+    }
+    .worksCards {
+        gap: 42px;
+        margin-bottom: 40px;
+    }
+    /* TESTIMONIALS */
+    .tetiText {
+        margin-top: 59px;
+        margin-left: 0px;
+    }
+    .cardWrapper {
+        width: 600px;
+    }
+    .testimonials {
+        margin-left: 13px;
+    }
+    .cardsTeti {
+        flex-direction: column;
+        width: 600px;
+        gap: 15px;
+        overflow: hidden;
+        height: 360px;
+    }
+    .cardText {
+        width: 596px;
+        height: 105px;
+    }
+    .mainText {
+        padding: 3px 17px 4px 17px;
+    }
+    .slidecontainer {
+        display: none;
+    }
+    .feedback {
+        width: 240px;
+        height: 54px;
+        margin-top: 37px;
+        margin-left: 182px;
+    }
+    .lastFlower {
+        margin-top: -51px;
+        width: 113px;
+        margin-right: -18px;
+    }
+    /* FOOTER */
+    .footer {
+        margin-top: -54px;
+        height: 282px;
+    }
+    .logoF {
+        margin-top: 11px;
+    }
+    .sectionOne {
+        margin-left: 20px;
+    }
+    .donateBtn {
+        margin-top: 31px;
+    }
+    .secThreeText {
+        display: none;
+    }
+    .sectionThree form {
+        display: none;
+    }
+    .sectionTwo {
+        margin-top: 231px;
+        margin-left: -368px;
+        margin-top: 227px;
+        align-items: baseline;
+    }
+    .listCommunities {
+        margin-top: -159px;
+        margin-left: 574px;
+        position: absolute;
+    }
+    .communitiesText {
+        display: none;
+    }
+    .facebook {
+        margin-top: 20px;
+    }
+    .listFoot {
+        gap: 37px;
+    }
+    .signature {
+        margin-left: 146px;
+        margin-top: 177px;
+    }
+    .textSign {
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 131%;
+        /* line-height: 1.3; */
+        letter-spacing: -0.1px;
+    }
+    .container {
+        max-width: 640px;
+        overflow: hidden;
+        margin: 0 auto;
     }
 }
