@@ -528,6 +528,10 @@ li:hover {
     margin-bottom: 91px;
 }
 
+.greenArrow {
+    display: none;
+}
+
 .paymentText {
     margin-top: 30px;
     margin-bottom: 60px;
@@ -1335,6 +1339,9 @@ button:focus {
         padding-top: 250px;
     }
     /* SECTION TWO*/
+    .animalsCards div:nth-child(3) {
+        display: none;
+    }
     .imgBambooCap {
         display: none;
     }
@@ -1351,6 +1358,7 @@ button:focus {
     }
     .secondWrapper {
         margin-top: 66px;
+        max-width: 640px;
     }
     .photoText {
         margin-left: 0px;
@@ -1420,6 +1428,13 @@ button:focus {
         margin-top: -404px;
     }
     /*SECTION FIVE*/
+    .greenArrow {
+        display: block;
+        position: relative;
+        margin-left: -57px;
+        margin-bottom: 228px;
+        margin-right: -64px;
+    }
     .pickAndFeed {
         height: 781px;
     }
@@ -1509,6 +1524,9 @@ button:focus {
         margin-right: -18px;
     }
     /* FOOTER */
+    .footerWrapper {
+        width: 640px;
+    }
     .footer {
         margin-top: -54px;
         height: 282px;
@@ -1560,8 +1578,54 @@ button:focus {
         letter-spacing: -0.1px;
     }
     .container {
-        max-width: 640px;
         overflow: hidden;
-        margin: 0 auto;
+    }
+    .items-img {
+        width: 285.24px;
+        height: 285.24px;
+    }
+    /*
+    _
+    _
+    _
+    _
+    */
+}
+
+
+/* 320 PX RESP
+//
+//
+//
+//
+*/
+
+@media (max-width: 639px) {
+    /* FIRST */
+    .orangeCircle {
+        width: 119.09px;
+        height: 119.09px;
+    }
+    .pandaText {
+        height: 187px;
+    }
+    .pandaTextCont {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 75%;
+        width: 163px;
+        margin-left: -10px;
+        margin-top: -52px;
+    }
+    .wrapNav {
+        margin-left: 0px;
+    }
+    .logoA {
+        width: 82px;
+        margin-right: 0px;
+    }
+    .hamburger {
+        padding-right: 10px;
+        height: 51px;
     }
 }
