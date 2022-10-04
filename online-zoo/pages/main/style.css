@@ -1372,4 +1372,17 @@ button:focus {
         margin-top: -23px;
         height: 671PX;
     }
+    .chain {
+        width: 285px;
+        height: 332px;
+    }
+    .animalName {
+        font-size: 12.4695px;
+        line-height: 140%;
+        margin-top: 0px;
+    }
+    .animalLocation {
+        font-size: 11.6901px;
+        line-height: 120%;
+    }
 }
