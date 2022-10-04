@@ -1605,16 +1605,19 @@ button:focus {
     .orangeCircle {
         width: 119.09px;
         height: 119.09px;
+        top: 55px;
+        left: calc(46% - 450px/2 + 239.5px);
     }
     .pandaText {
-        height: 187px;
+        height: 220px;
+        background-position: -55px 19px;
     }
     .pandaTextCont {
         font-weight: 700;
         font-size: 28px;
         line-height: 75%;
         width: 163px;
-        margin-left: -10px;
+        margin-left: 3px;
         margin-top: -52px;
     }
     .wrapNav {
@@ -1628,4 +1631,230 @@ button:focus {
         padding-right: 10px;
         height: 51px;
     }
+    .manageBtn {
+        padding-left: 13px;
+        padding-top: 210px;
+    }
+    .d {
+        margin-left: 12px;
+        width: 297px;
+
+    }
+    .descriptionOne {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        margin-top: 49px;
+        margin-bottom: 11px;
+    }
+    .descriptionThree {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        position: relative;
+    }
+    .descriptionTwo {
+        margin-top: 20px;
+        margin-bottom: 9px;
+    }
+    .flowersThree {
+        display: block;
+        margin-left: auto;
+        margin-top: -455px;
+        width: 36px;
+        margin-right: 0px;
+
+    }
+    .flowersTwo {
+        display: none;
+    }
+    .animals {
+        margin-top: 265px;
+    }
+    .animalsCards {
+        width: 378px;
+        height: 744px;
+    }
+    .btnArrowLeft {
+        display: none;
+    }
+    .btnArrowRight {
+        display: none;
+    }
+    .animalsCards {
+        padding-left: 76px;
+        gap: 17px 27px;
+        width: 378px;
+        height: 1397px;
+    }
+    .buttonContainerWrapper {
+        margin-left: 12px;
+        margin-top: -76px;
+    }
+    .strelitzia {
+        width: 92px;
+        height: 81px;
+        margin-top: 383px;
+    }
+    .flowersAnimals img:nth-child(1) {
+        display: none;
+    }
+
+    /*PICK*/
+    .pickAndFeed {
+        height: 1082px;
+    }
+    .pickContainer {
+        margin-top: -1px;
+        width: 300px;
+        height: 1042px;
+        margin-left: 0px;
+    }
+    .pickTextOne {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 11px;
+    }
+    .pickTextTwo {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+        /* or 22px */
+
+        text-align: center;
+        margin-left: -3px;
+        margin-bottom: 18px;
+    }
+    .pickTextThree {
+        display: none;
+    }
+    .pickTextFour {
+        display: none;
+    }
+    .howItWorks {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        margin-top: 3px;
+        padding-left: 1px;
+    }
+    .worksCards {
+        flex-direction: column;
+        gap: 0px;
+        margin-bottom: 15px;
+    }
+    .paymentText {
+        margin-top: 8px;
+        margin-bottom: 30px;
+
+    }
+    .paymentCard {
+        width: 168px;
+        height: 247px;
+    }
+    .greenArrow {
+        display: none;
+    }
+    .tetiText {
+        margin-top: 33px;
+        margin-left: -3px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 22px;
+    }
+    .cardWrapper {
+        width: 299px;
+    }
+    .testimonials {
+        margin-left: 3px;
+    }
+    .cardsTeti {
+        width: 299px;
+        gap: 10px;
+    }
+    .cardText {
+        width: 295px;
+        height: 109px;
+    }
+    .textWrap {
+        padding: 9px 9px 5px 8px;
+    }
+    .feedback {
+        margin-top: 27px;
+        margin-left: 28px;
+        position: relative;
+    }
+    .lastFlower {
+        margin-top: -5px;
+        width: 72px;
+        margin-right: -8px;
+    }
+    .footer {
+        margin-top: -54px;
+        height: 540px;
+    }
+    .footerWrapper {
+        width: 540px;
+    }
+    .sectionOne {
+        margin-left: -13px;
+        /* margin: 0 auto; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logoF {
+        width: 146px;
+        height: 52px;
+        /* border: 1px solid #FFFFFF; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        margin-top: 6px;
+        margin-right: 4px;
+    }
+    .logoText {
+        font-weight: 400;
+        font-size: 19.0145px;
+        line-height: 120%;
+    }
+    .donateBtn {
+        margin-top: 71px;
+        margin-right: 8px;
+    }
+    .sectionTwo {
+        display: none;
+    }
+    .listCommunities {
+        margin-top: -130px;
+        margin-left: -5px;
+        position: unset;
+        display: flex;
+        gap: 30px;
+    }
+    .signature {
+        margin-left: -74px;
+        margin-top: 172px;
+    }
+    .textSign {
+        font-size: 15px;
+        line-height: 120%;
+    }
+    .signature {
+        gap: 14px;
+
+    }
+
+
+
+
+
+
+ 
+
 }
