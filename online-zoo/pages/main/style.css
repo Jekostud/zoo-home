@@ -408,6 +408,9 @@ li:hover {
     height: 275px;
     margin-top: 184px;
 }
+.flowersThree {
+    display: none;
+}
 
 
 /*   Pick and feed a friend */
